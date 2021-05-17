@@ -13,7 +13,7 @@ docker pull  docker/getting-started
 ```
 docker run -d -p 80:80 --name first-docker docker/getting-started 
 ```
-เปิดเว็บหน้า http://127.0.0.1:8080
+เปิดเว็บหน้า http://127.0.0.1:80
 
 ### 3. ดู Docker container 
 
