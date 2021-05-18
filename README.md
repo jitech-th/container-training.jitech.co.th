@@ -2,7 +2,12 @@ excercise: [excercise-1 container management](./excercise-1.md) | [excercise-2 d
 
 # Containers-training
 
+
+
 ## Topic and resource
+* Slide
+<br>Source:[[slide from container.training](https://qconsf2017intro.container.training/)]
+
 * History
   <br>source:[[Why you should use Docker and containers](https://www.infoworld.com/article/3310941/why-you-should-use-docker-and-containers.html)]
 * Docker History
