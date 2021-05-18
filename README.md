@@ -1,4 +1,4 @@
-excercise: [excercise-1 container management](./excercise-1.md) | [excercise-2 docker-compose](./excercise-2.md) | [excercise-3 build a new image](./excercise-3.md) <br>
+excercise | [excercise-1 container management](./excercise-1.md) | [excercise-2 docker-compose](./excercise-2.md) | [excercise-3 build a new image](./excercise-3.md) <br>
 
 # Containers-training
 
@@ -46,7 +46,7 @@ excercise: [excercise-1 container management](./excercise-1.md) | [excercise-2 d
  * Docker-compose
    <br>source:[[docs.docker.com](https://docs.docker.com/compose/)]
 
- * container orchestration (Container Cluster)
+ * Container Orchestration (Container Cluster)
    * Kubernetes(K8s)
    * Docker Swarm
    
