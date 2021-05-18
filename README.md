@@ -46,7 +46,7 @@ excercise: [excercise-1 container management](./excercise-1.md) | [excercise-2 d
  * Docker-compose
    <br>source:[[docs.docker.com](https://docs.docker.com/compose/)]
 
- * Container Cluster
+ * container orchestration (Container Cluster)
    * Kubernetes(K8s)
    * Docker Swarm
    
