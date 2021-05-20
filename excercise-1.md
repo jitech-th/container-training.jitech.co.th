@@ -1,6 +1,6 @@
 # Excercise 1 : การสร้าง Container
 
-### 1. ดาวน์โหลด Docker image ด้วยคำสั่ง ```docker pull```
+### 1. ดาวน์โหลด Docker image ด้วยคำสั่ง "docker pull"
 
 Run คำสั่งต่อไปนี้เพื่อ Download docker images ชื่อ ```getting-started``` ที่อยู่ใน Registry ของ docker 
 ```
@@ -36,27 +36,39 @@ docker run -d -p 80:80 --name first-docker docker/getting-started
 
 ### 3. ตรวจสอบสถานะของ container (Check container status)
 
-ดู container list ยังมีสถานะ ``up``` อยู่
+เรียกดูรายการ container ยังมีสถานะ ``up``` อยู่
 ```
 docker ps 
 ```
 
-ดู docker process ทั้งหมด (ทั้ง ```up``` และ ```down```)
+เรียกดูรายการ container ทั้งหมด (ทั้ง ```up``` และ ```down```)
 ```
 docker ps -a
 ```
 
-ดู logs ของ docker 
+เรียกดู logs ของ container 
 ```
 docker logs first-docker
 ```
 
-ดู ข้อมูลของ ของ docker 
+เรียกดูข้อมูลของของ container 
 ```
 docker inspect first-docker
+``` 
+
+### 4. การ Run คำสั่งใน Container ด้วย "docker exec"
+
+เรียกดูไฟล์ที่ working directory ของ container ด้วยคำสั่งนี้
+```
+docker exec -it first-docker ls 
 ```
 
-### 4. หยุด Run Container ```first-docker```
+ลอง shell เข้าไปใน container (ถ้า container นั้นมีคำสั่ง shell ให้ใช้)
+```
+docker exec -it first-docker ls 
+```
+
+### 5. หยุด Run Container "first-docker"
 
 ```
 docker stop first-docker
@@ -67,7 +79,7 @@ docker stop first-docker
 docker ps -a
 ```
 
-### 5. ลบ Container ```first-docker```
+### 6. ลบ Container "first-docker"
 
 ```
 docker rm first-docker
