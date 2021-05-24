@@ -1,5 +1,5 @@
 # Excercise 3 Built a new image  
-reference: [[มาสร้าง Docker Image กันเถอะ!](https://medium.com/i-gear-geek/%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99-docker-file-%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B9%84%E0%B8%94%E0%B9%89-docker-image-d2dedd10361e), [multistage-build](https://docs.docker.com/develop/develop-images/multistage-build/)]  
+reference: [[มาสร้าง Docker Image กันเถอะ!](https://medium.com/i-gear-geek/%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99-docker-file-%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B9%84%E0%B8%94%E0%B9%89-docker-image-d2dedd10361e), [multistage-build](https://docs.docker.com/develop/develop-images/multistage-build/),[docker-maven](https://codefresh.io/howtos/using-docker-maven-maven-docker/)]  
 
 ## 1. สร้าง Direcotory ใหม่สำหรับเป็น Dockerfile
 ```
@@ -27,4 +27,10 @@ Dockerfile เป็น Script หรือ Configuration ที่ใช้ส�
 ## 3. Built Docker 
 ```
 docker build -t imageName:tagName .
+```
+
+# 4. Create container from image
+
+```
+docker run -d -p 3030:3030 hello-world --name hello-world
 ```
