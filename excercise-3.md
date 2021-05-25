@@ -3,8 +3,8 @@ reference: [[มาสร้าง Docker Image กันเถอะ!](https://
 
 ## 1. Clone node.js code จาก github
 ```
-git clone https://github.com/jitech-th/container-training.jitech.co.th.git
-cd /exercise-3
+git clone https://github.com/jitech-th/container-training.jitech.co.th.git container-lab
+cd container-lab/exercise-3
 ```
 
 ## 2. สร้าง Dockerfile 
