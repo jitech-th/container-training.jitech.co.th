@@ -50,7 +50,7 @@ docker run -d -p 3030:3030 hello-world
 ```
 
 # 5. สร้าง Tag เพื่อเตรียม Push ขึ้น Docker Registry
-สร้าง Tag เพื่อใช้ำสำหรับ push ขึ้นบน dockerhub.io
+สร้าง Tag เพื่อใช้ำสำหรับ push ขึ้นบน https://hub.docker.com/
 ```
 docker tag hello-world pt1988/hello-world:1.0 
 docker tag hello-world pt1988/hello-world
