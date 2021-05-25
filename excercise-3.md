@@ -25,7 +25,7 @@ Dockerfile เป็น Script หรือ Configuration ที่ใช้ส�
 3. ENTRYPOINT หรือ CMD (เป็นการกำหนดจุดเริ่มทำงานของ container เมื่อ Run Image)
 ```
 
-สร้าง Dockerfile ด้วยคำสั่ง vim Dockerfile และคัดลอก Config ต่อไปนี้ลงไป
+สร้าง Dockerfile ด้วยคำสั่ง vim ```Dockerfile``` และคัดลอก Config ต่อไปนี้ลงไป
 ```
 FROM node:10-alpine
 
@@ -40,11 +40,27 @@ CMD [ "node", "app.js" ]
 ```
 ## 3. Built Docker 
 ```
-docker build -t imageName:tagName .
+docker build -t hello-world .
 ```
 
 # 4. Create container from image
 
 ```
 docker run -d -p 3030:3030 hello-world 
+```
+
+# 5. สร้าง Tag เพื่อเตรียม Push ขึ้น Docker Registry
+สร้าง Tag เพื่อใช้ำสำหรับ push ขึ้นบน dockerhub.io
+```
+docker tag hello-world dockerhub.io/pt1988/hello-world:1.0 
+```
+# 6. Push Image ขึ้น Registry (Dockerhub.io)
+login account ของ Dockerhub ด้วยคำสั่ง
+```
+docker login
+```
+
+push image ขึ้น Registry ด้วยคำสั่ง
+```
+docker push dockerhub.io/pt1988/hello-world:1.0 
 ```
