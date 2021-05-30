@@ -46,6 +46,9 @@ source:[[Life Before Docker and Beyond](https://avatao.com/blog-life-before-dock
  * Docker-compose  
    source:[[docs.docker.com](https://docs.docker.com/compose/)]
 
+ * Create your own regisry
+   [docs.docker.com](https://docs.docker.com/registry/deploying/) 
+
  * Container Orchestration (Container Cluster)
    * Kubernetes(K8s)
    * Docker Swarm
