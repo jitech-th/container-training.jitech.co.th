@@ -1,7 +1,9 @@
-excercise | [excercise-1 container management](./excercise-1.md) | [excercise-2 docker-compose](./excercise-2.md) | [excercise-3 build a new image](./excercise-3.md) <br>
 # Containers-training
 
-
+### excercise 
+* [excercise-1 container management](./excercise-1.md) 
+* [excercise-2 docker-compose](./excercise-2.md) 
+* [excercise-3 build a new image](./excercise-3.md) <br>
 
 ## Topic and resource
 * Slide
